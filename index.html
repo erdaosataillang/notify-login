@@ -1,8 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <title>自動ログイン中</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ログイン中</title>
   <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f3f4f6;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 150px; /* 画像サイズを大きくしました */
+      height: 150px;
+    }
+  </style>
   <script>
     function initializeLiff() {
       liff.init({ liffId: "2005512061-Y1Nb6N58" }).then(() => {
@@ -27,8 +50,8 @@
   </script>
 </head>
 <body>
-  <h1>sorairoサービスにログインしています...</h1>
- <img src="https://img.icons8.com/?size=100&id=bGpdQvUlLJDg&format=gif" alt="アイコン画像">
-  </h3>
+  <h1>ログインサーバーにアクセスし、ログインしています。</h1>
+  <img src="https://img.icons8.com/?size=100&id=bGpdQvUlLJDg&format=gif" alt="アニメーション画像">
 </body>
 </html>
+
