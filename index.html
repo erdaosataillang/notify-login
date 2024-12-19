@@ -18,7 +18,7 @@
 
             // リダイレクト処理
             setTimeout(() => {
-              window.location.href = `https://script.google.com/macros/s/AKfycbwEcXsDIL3_FW8RPQ3eSbEXhJLTw6PBMka17Ub7PLsn_MgZcmm36UvlP2ooZT_SmLwz/exec?lineuserid=${userId}`;
+              window.location.href = `https://script.google.com/macros/s/AKfycbwEcXsDIL3_FW8RPQ3eSbEXhJLTw6PBMka17Ub7PLsn_MgZcmm36UvlP2ooZT_SmLwz/exec?lineuserId=${userId}`;
             }, 300); // 0.3秒後にリダイレクト
           }).catch(err => {
             console.error('Error getting profile:', err);
